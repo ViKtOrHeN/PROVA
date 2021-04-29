@@ -8,19 +8,19 @@
 
 ### Tarefas
 
-- [ ] Descrição do processo a ser seguido no projeto que resultará nos artefatos (project defined process).
-- [ ] Plano do projeto (project plan).
-- [ ] Planos das iterações (iteraction plan).
-- [ ] Lista de ferramentas (tools) .
-- [ ] Glossário (glossary).
-- [ ] Documento de visão (vision).
-- [ ] Descrições de requisitos que não sejam expressos por meio de casos de uso (system-wide requirements).
-- [x] Modelo de casos de uso (use-case model) .
-- [x] Descrições detalhadas dos casos de uso (use case).
-- [ ] Descrição da arquitetura do software (architecture notebook).
-- [ ] Projeto de interface com o usuário.
-- [ ] Projeto físico de banco de dados.
-- [ ] Descrição da infraestrutura de implantação (infrastructure).
-- [ ] Teste fumaça (smoke test) composto por casos de teste (test cases).
-- [ ] Protótipo de interface com o usuário.
-- [ ] Protótipo de banco de dados.
+- [ ] Descrição do processo a ser seguido no projeto que resultará nos artefatos (project defined process). (Porto)
+- [ ] Plano do projeto (project plan). (Thiago)
+- [ ] Planos das iterações (iteraction plan). (Thiago)
+- [ ] Lista de ferramentas (tools) . (Gustavo)
+- [ ] Glossário (glossary).(Gustavo)
+- [ ] Documento de visão (vision). (Gustavo)
+- [ ] Descrições de requisitos que não sejam expressos por meio de casos de uso (system-wide requirements). (Porto)
+- [x] Modelo de casos de uso (use-case model) . (Porto)
+- [x] Descrições detalhadas dos casos de uso (use case). (Porto)
+- [ ] Descrição da arquitetura do software (architecture notebook). (Thiago)
+- [ ] Projeto de interface com o usuário. (Gustavo)
+- [ ] Projeto físico de banco de dados. (Thiago)
+- [ ] Descrição da infraestrutura de implantação (infrastructure). (Porto)
+- [ ] Teste fumaça (smoke test) composto por casos de teste (test cases). (Todo time)
+- [ ] Protótipo de interface com o usuário. (Gustavo)
+- [ ] Protótipo de banco de dados. (Thiago)
