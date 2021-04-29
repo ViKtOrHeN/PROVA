@@ -15,8 +15,8 @@
 - [ ] Glossário (glossary).
 - [ ] Documento de visão (vision).
 - [ ] Descrições de requisitos que não sejam expressos por meio de casos de uso (system-wide requirements).
-- [ ] Modelo de casos de uso (use-case model) .
-- [ ] Descrições detalhadas dos casos de uso (use case).
+- [x] Modelo de casos de uso (use-case model) .
+- [x] Descrições detalhadas dos casos de uso (use case).
 - [ ] Descrição da arquitetura do software (architecture notebook).
 - [ ] Projeto de interface com o usuário.
 - [ ] Projeto físico de banco de dados.
