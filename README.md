@@ -3,8 +3,8 @@
 ### Integrantes
 
 * Gabriel Porto Oliveira  - 18/0058975
-* Thiago Chaves de Melo   - ##/#######
-* Gustavo da Silva Júnior - ##/#######
+* Thiago Chaves Monteiro de Melo   - ##/#######
+* Gustavo Antonio Souza de Barros - 18/0064487
 
 ### Tarefas
 
