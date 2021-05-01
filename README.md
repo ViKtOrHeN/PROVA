@@ -9,8 +9,8 @@
 ### Tarefas
 
 - [ ] Descrição do processo a ser seguido no projeto que resultará nos artefatos (project defined process). (Porto)
-- [ ] Plano do projeto (project plan). (Thiago)
-- [ ] Planos das iterações (iteraction plan). (Thiago)
+- [x] Plano do projeto (project plan). (Thiago)
+- [x] Planos das iterações (iteraction plan). (Thiago)
 - [ ] Lista de ferramentas (tools) . (Gustavo)
 - [ ] Glossário (glossary).(Gustavo)
 - [ ] Documento de visão (vision). (Gustavo)
