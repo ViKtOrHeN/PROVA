@@ -3,7 +3,7 @@
 ### Integrantes
 
 * Gabriel Porto Oliveira  - 18/0058975
-* Thiago Chaves Monteiro de Melo   - ##/#######
+* Thiago Chaves Monteiro de Melo   - 18/0055127
 * Gustavo Antonio Souza de Barros - 18/0064487
 
 ### Tarefas
@@ -17,7 +17,7 @@
 - [ ] Descrições de requisitos que não sejam expressos por meio de casos de uso (system-wide requirements). (Porto)
 - [x] Modelo de casos de uso (use-case model) . (Porto)
 - [x] Descrições detalhadas dos casos de uso (use case). (Porto)
-- [ ] Descrição da arquitetura do software (architecture notebook). (Thiago)
+- [x] Descrição da arquitetura do software (architecture notebook). (Thiago)
 - [ ] Projeto de interface com o usuário. (Gustavo)
 - [ ] Projeto físico de banco de dados. (Thiago)
 - [ ] Descrição da infraestrutura de implantação (infrastructure). (Porto)
