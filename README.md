@@ -20,7 +20,7 @@
 - [x] Descrição da arquitetura do software (architecture notebook). (Thiago)
 - [ ] Projeto de interface com o usuário. (Gustavo)
 - [ ] Projeto físico de banco de dados. (Thiago)
-- [ ] Descrição da infraestrutura de implantação (infrastructure). (Porto)
+- [x] Descrição da infraestrutura de implantação (infrastructure). (Porto)
 - [x] Teste fumaça (smoke test) composto por casos de teste (test cases). (Todo time)
 - [ ] Protótipo de interface com o usuário. (Gustavo)
 - [ ] Protótipo de banco de dados. (Thiago)
