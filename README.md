@@ -13,7 +13,7 @@
 - [x] Planos das iterações (iteraction plan). (Thiago)
 - [ ] Lista de ferramentas (tools) . (Gustavo)
 - [ ] Glossário (glossary).(Gustavo)
-- [ ] Documento de visão (vision). (Gustavo)
+- [x] Documento de visão (vision). (Gustavo)
 - [x] Descrições de requisitos que não sejam expressos por meio de casos de uso (system-wide requirements). (Porto)
 - [x] Modelo de casos de uso (use-case model) . (Porto)
 - [x] Descrições detalhadas dos casos de uso (use case). (Porto)
