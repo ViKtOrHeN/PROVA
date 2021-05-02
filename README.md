@@ -11,7 +11,7 @@
 - [x] Descrição do processo a ser seguido no projeto que resultará nos artefatos (project defined process). (Porto)
 - [x] Plano do projeto (project plan). (Thiago)
 - [x] Planos das iterações (iteraction plan). (Thiago)
-- [ ] Lista de ferramentas (tools) . (Gustavo)
+- [x] Lista de ferramentas (tools) . (Gustavo)
 - [x] Glossário (glossary).(Gustavo)
 - [x] Documento de visão (vision). (Gustavo)
 - [x] Descrições de requisitos que não sejam expressos por meio de casos de uso (system-wide requirements). (Porto)
