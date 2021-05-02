@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/thibo/Documents/Sql/es.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="0"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="1139"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,14:mainAnuncioAluguel"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="AnuncioAluguel" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="40"/><column index="2" value="180"/><column index="3" value="167"/><column index="4" value="115"/><column index="5" value="70"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">CREATE TABLE Uf (
+	id integer PRIMARY KEY AUTOINCREMENT,
+	nome varchar,
+	sigla varchar
+);
+
+CREATE TABLE Bairro (
+	id integer PRIMARY KEY AUTOINCREMENT,
+	nome varchar,
+	Cidade_id varchar
+);
+
+CREATE TABLE Cidade (
+	id integer PRIMARY KEY AUTOINCREMENT,
+	nome varchar,
+	Uf_id integer
+);
+
+CREATE TABLE Endereco (
+	id integer PRIMARY KEY AUTOINCREMENT,
+	complemento varchar,
+	numero integer,
+	rua varchar,
+	Bairro_id integer
+);
+
+CREATE TABLE Imovel (
+	id integer PRIMARY KEY AUTOINCREMENT,
+	descricao varchar,
+	nro_max_hospedes integer,
+	TipoImovel_id integer,
+	Endereco_id integer
+);
+
+CREATE TABLE TipoImovel (
+	id integer PRIMARY KEY AUTOINCREMENT,
+	descricao varchar
+);
+
+CREATE TABLE AnuncioAluguel (
+	id integer PRIMARY KEY AUTOINCREMENT,
+	data_inicio_disponibilidade date,
+	data_fim_disponibilidade date,
+	valor_min_diaria float,
+	Imovel_id integer
+);
+
+CREATE TABLE PropostaAluguel (
+	id integer PRIMARY KEY AUTOINCREMENT,
+	data_inicio date,
+	data_fim date,
+	nro_hospedes integer,
+	valor_diaria float,
+	Usuario_id integer,
+	AnuncioAluguel_id integer
+);
+
+CREATE TABLE Usuario (
+	id integer PRIMARY KEY AUTOINCREMENT,
+	nome date,
+	email varchar,
+	password varchar,
+	telefone varchar,
+	TipoUsuario_id integer
+);
+
+CREATE TABLE TipoUsuario (
+	id integer PRIMARY KEY AUTOINCREMENT,
+	descricao varchar
+);
+</sql><current_tab id="0"/></tab_sql></sqlb_project>
