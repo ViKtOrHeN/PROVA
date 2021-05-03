@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFBFA;
+    color: #031926;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+/* TELA INICIAL */
+.container{
+    width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: #00BD9D;
+    align-items: center;
+    height: 40%;
+    padding-top: 1rem;
+}
+
+.content{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content > div {
+    width: 60%;
+    height: 60%;
+    background-color: #8BD7D2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+a { color: inherit; }
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+} 
+
+footer{
+    display: flex;
+    height: 10%;
+    background-color: #49C6E5;
+    padding: 0.5rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header > div {
+    padding: 0 10%;
+}
+
+.pagina-inicial > div{
+    width: 50%;
+}
+
+.vertical-form{
+    display: flex;
+    flex-direction: column;
+}
+
+#login-form > div, input {
+    margin: 0.5rem 0;
+}
+
+#login-form > input {
+    height: 2rem;
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 0.5rem;
+}
+
+.login-button{
+    cursor: pointer;
+    text-align: center;
+    background-color: #008e76;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color:#FFFBFA;
+}
+
+#title {
+    font-size: 1.4rem;
+}
+
+#subtitle {
+    font-size: 1.1rem;
+    margin: 1rem 0;
+}
+
+.img-container {
+    height: 100%;
+    background-color: #031926;
+    background-image: url("./asset.jpg");
+    background-position: center;
+}
+.img-container > img{
+    object-fit: cover;
+    width: 100%;
+    overflow: hidden;
+    object-position: center;
+}
+
+.content-container > div{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Cadastro */
+.cadastro-container{
+    background-color: #00BD9D;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.cadastro-container > div{
+    width: 35%;
+    padding: 0 1rem;
+}
+
+/* Listagem */
+.button-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button-container > *{
+    cursor: pointer;
+}
+
+.list-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.card{
+    background-color: #8BD7D2;
+    border-radius: 2px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.list-container > .card{
+    width: 20%;
+    min-height: 200px;
+    margin: 2rem 5%;
+}
+
+.card-description{
+    background-color: #8BD7D2;
+    padding: 1rem;
+}
+
+/* Imovel */
+
+.imovel-container{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 10% 0 10%;
+}
+
+.imovel-description{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.imovel-description > * {
+    margin-bottom: 1rem;
+}
